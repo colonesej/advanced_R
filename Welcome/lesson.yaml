@@ -1,0 +1,43 @@
+- Class: meta
+  Course: edx-AdvancedR
+  Lesson: Welcome
+  Author: Fiona Tanuwidjaja
+  Type: Standard
+  Organization: MIT/JPAL
+  Version: 2.2.0
+
+
+
+- Class: text
+  Output: Welcome to the 14.310x Advanced R course! This short interactive course is designed
+    to provide you with knowledge that you will find useful when working with R during this course
+    (and beyond!). Note that while that none of the information presented here is necessary to
+    complete the assignments for 14.310x, this course is highly recommended, particularly for those
+    who plan to continue working with R following 14.310x. Are you ready to get started?
+    (If yes, hit the Enter key)
+
+  - Class: text
+    Output: Great, let's get started! This course will utilize the interactive Swirl environment
+      again, which means that you'll navigate the interface in RStudio the same way you did
+      in the Intro to R course!
+
+  - Class: text
+    Output: As a quick recap: hit the (Esc) key if you are within the module (as indicated by the
+      (>) key) to navigate your way out. You may also type "bye()" to save your progress. Within the
+      module, enter "info()" in the command prompt to get a list of navigation options. When the Swirl
+      environment asks you "What should I call you?" be sure to enter the same name consistently to keep
+      track of your progress. To call up the Swirl environment again later, install the library "library(swirl)"
+      and enter the method "swirl()". Lastly, use the skip() command if you are stuck only as a last resort! You
+      can't use the skip() command in the real world, so it's good practice to troubleshoot your errors first
+      before giving up.
+
+    - Class: text
+      Output: This course is organized into 17 modules (excluding this Welcome module).
+        Each of these modules is about 15-20 min long, and will cover a specific set of topics.
+        You can find the list of topics and commands within each module on the 14.310x edx page.
+
+    - Class: text
+      Output: One last thing-- you will likely need to install some new helpful packages in order to
+        run this course. The packages will help you later if you continue to use R and are mostly related
+        to graphics. When prompted in the command line to install new packages, please say Yes, or you will
+        be unable to complete this course! Have fun!
